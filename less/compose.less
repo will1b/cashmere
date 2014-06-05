@@ -1,0 +1,54 @@
+// compose.less
+// fixes and workarounds for the compose-column in cashmere
+
+// Variables
+@compose-fix:		@compose-fix;
+@compose-remove:	0px;
+@compose-header:	#339dc3;
+
+.antiscroll-inner {
+	padding-left: @compose-remove !important;
+	padding-right: @compose-remove !important;
+}
+
+.compose-accounts {
+	padding-left: @compose-fix;
+	padding-right: @compose-fix;    
+}
+  
+.compose-text-container, .js-compose-hint, .compose-reply-tweet {
+	margin-left: @compose-fix;
+	margin-right: @compose-fix;    
+}
+
+.js-compose-title {
+	margin-left: @compose-fix;    
+}
+
+.js-media-added {
+  	padding-left: @compose-fix;
+	padding-right: @compose-fix;
+}
+      
+.js-send-tweet-button {
+	margin-right: @compose-fix;    
+}
+        
+.js-add-image-button, .js-schedule-button, .js-dm-button, .js-tweet-button, .js-compose-message-recipient > p {
+    width: 92%;
+	margin-left: @compose-fix;
+	margin-right: @compose-fix;    
+}
+
+.compose-header, .attach-compose-buttons .tweet-button {
+    background-color: @compose-header;
+}
+      
+.compose-title {
+    padding-top: 6px;
+}
+
+.inline-reply .compose-text-container {
+	display: inline-block;
+	width: 94%;
+}
