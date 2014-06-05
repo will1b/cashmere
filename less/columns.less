@@ -1,0 +1,23 @@
+// columns.less
+// fixes column margins and more for cashmere
+
+// Variables
+@column-padding:	1px;
+@column-margin:		1px;
+
+.is-wide-columns .column, .is-narrow-columns .column {
+    margin-right: @column-margin;
+}
+
+.is-wide-columns .app-columns, .is-narrow-columns .app-columns {
+	padding-top: @column-padding;
+	padding-left: @column-padding;
+}
+
+.app-columns {
+  	padding: @column-padding 0 @column-padding @column-padding;
+}
+  
+.js-column {
+  	margin: 0 @column-margin 0 0;
+}
