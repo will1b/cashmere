@@ -5,10 +5,18 @@
 @image-radius:		100px;
 @btn-radius:		0px;
 
-.tweet-avatar, .avatar, .prf-img, .size72, .size24, .compose-account-selected, .compose-account-img, .compose-account {
+.tweet-avatar, .prf-img, .size72, .size24 {
 	border-radius: @image-radius;
+}
+
+.compose-account-img {
+	border-radius: @btn-radius;
 }
 
 .scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb, .btn, .md1 {
 	border-radius: @btn-radius;
+}
+
+.prf-img > .avatar {
+	border-radius: @image-radius;
 }
