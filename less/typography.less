@@ -2,9 +2,12 @@
 // changes for text behaviour/body stuff in cashmere
 
 body {
-	font-family: 'Open Sans', sans-serif;
-    background-image: @loading;
+	background-image: @loading;
     background-size: cover;
+}
+
+body, .is-inverted-dark {
+	font-family: @font-family;
 }
 
 .is-favorite .tweet-text a {
