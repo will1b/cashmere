@@ -23,12 +23,18 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 ### How to install this style
 
 * Name the Style anything you want, but something easy to recognise like *Cashmere* would be good.
-* (Chrome only) Create a rule pointing to `URLs starting with` `https://tweetdeck.twitter.com`.
-* (Firefox only) Add the following into the textbox, on a single line: 
-* `@-moz-document url-prefix("https://tweetdeck.twitter.com") {`.
 * Paste the text from `cashmere.css` for the theme you use on the [releases page](https://github.com/pixeldesu/cashmere/releases) into the textbox, below the `@moz-document...` line if you have one.
-* (Firefox only) Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
 * Click on **Save** and look at TweetDeck!
+
+## Chrome
+
+* Create a rule pointing to `URLs starting with` `https://tweetdeck.twitter.com`.
+
+## Firefox
+
+* Add the following into the textbox, on a single line: 
+* `@-moz-document url-prefix("https://tweetdeck.twitter.com") {` and paste the text from `cashmere.css` after that.
+* Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
 
 ### How to use a custom loading image
 
@@ -38,33 +44,3 @@ Follow the above steps, but open the theme in Stylish afterwards and do the foll
 * Copy the URL and paste it into the line starting `background-image: url(` where the default URL is.
 * Click on save.
 * Notice the changes on refresh!
-
-## Roadmap
-
-### General Style
-
-* [x] Flat style
-* [x] Removed paddings  *more content displayed*
-* [x] Removed borders between tweets *even more content displayed*
-* [x] Resized column headers *yet more content displayed*
-* [x] New font and Unicode support
-* [x] Header for 'New Tweet'
-* [x] Circled images
-* [x] Condensed account selection
-
-### Tweet Status (Favorite/Retweet/Both)
-
-* [x] Dogears displaying tweet status changed to a custom-colored bar on the right-hand side
-* [x] Links are now colored in the corresponding status color
-
-### Icon Replacement
-
-* [x] New Tweets sprite replaced with CSS-line/border
-
-### Special
-
-* [x] Support for custom loading background!
-
-### Planned
-
-* [ ] Profile redesign
