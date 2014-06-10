@@ -26,11 +26,11 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 * Paste the text from `cashmere.css` for the theme you use on the [releases page](https://github.com/pixeldesu/cashmere/releases) into the textbox, below the `@moz-document...` line if you have one.
 * Click on **Save** and look at TweetDeck!
 
-## Chrome
+#### Chrome
 
 * Create a rule pointing to `URLs starting with` `https://tweetdeck.twitter.com`.
 
-## Firefox
+#### Firefox
 
 * Add the following into the textbox, on a single line: 
 * `@-moz-document url-prefix("https://tweetdeck.twitter.com") {` and paste the text from `cashmere.css` after that.
