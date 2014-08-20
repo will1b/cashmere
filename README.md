@@ -23,18 +23,19 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 ### How to install this style
 
 * Name the Style anything you want, but something easy to recognise like *Cashmere* would be good.
-* Paste the text from `cashmere.css` for the theme you use on the [releases page](https://github.com/pixeldesu/cashmere/releases) into the textbox, below the `@moz-document...` line if you have one.
-* Click on **Save** and look at TweetDeck!
+* Paste the text from `cashmere.css` for the theme you use on the [releases page](https://github.com/pixeldesu/cashmere/releases) into the textbox.
 
 #### Chrome
 
 * Create a rule pointing to `URLs starting with` `https://tweetdeck.twitter.com`.
+* Click on **Save** and look at TweetDeck!
 
 #### Firefox
 
-* Add the following into the textbox, on a single line: 
-* `@-moz-document url-prefix("https://tweetdeck.twitter.com") {` and paste the text from `cashmere.css` after that.
+* Add the following into the textbox on a single line, before the contents of cashmere.css: 
+* `@-moz-document url-prefix("https://tweetdeck.twitter.com") {`
 * Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
+* Click on **Save** and look at TweetDeck!
 
 ### How to use a custom loading image
 
