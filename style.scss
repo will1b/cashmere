@@ -6,22 +6,15 @@
  
 // Theme
 $theme: light;
+// $theme: dark;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic');
 @import "sass/variable";
 @import "sass/typography";
 @import "sass/radius";
 @import "sass/columns";
-@if $theme == "light" {
-@import "sass/column-headers-light";
-} @else if $theme == "dark" {
-@import "sass/column-headers-dark";  
-}
+@import "sass/column-headers";
 @import "sass/compose";
 @import "sass/compose-accounts";
-@if $theme == "light" {
-@import "sass/tweet-light";
-} @else if $theme == "dark" {
-@import "sass/tweet-dark";
-}
+@import "sass/tweet";
 @import "sass/dogear"; 
