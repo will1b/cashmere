@@ -1,7 +1,7 @@
 cashmere
 ========
 
-Successor for ['Modern TweetDeck'](https://github.com/pixeldesu/modern-tweetdeck) built with LESS
+Successor for ['Modern TweetDeck'](https://github.com/pixeldesu/modern-tweetdeck) built with SASS
 
 **WARNING:** This modification cannot be applied directly *without* a plugin for your browser that allows userstyles on certain webpages. I would recommend [Stylish/userstyles.org](http://userstyles.org/).
 
