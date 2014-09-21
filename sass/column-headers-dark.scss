@@ -1,0 +1,36 @@
+// column-headers.scss - dark theme
+// changes to the column headers for cashmere
+
+.column-header {
+  background-color: #222426;
+}
+
+@each $column-type, $color, $lighten in (home, $column-home, 10%),
+                                        (mention, $column-interaction, 10%),
+                                        (interactions, $column-interaction, 10%),
+                                        (message, $column-message, 10%),
+                                        (activity, $column-activity, 10%),
+                                        (tweets, $column-tweets, 10%),
+                                        (favorite, $favorite-color, 3%),
+                                        (search, $column-search, 10%),
+                                        (list, $column-list, 10%),
+                                        (customtimeline, $column-customtimeline, 10%),
+                                        (scheduled, $column-scheduled, 10%)
+{
+  .column-type-#{$column-type} .column-header {
+    color: lighten(#{$color}, #{$lighten});
+    border-bottom: 1px solid lighten(#{$color}, #{$lighten});
+  }
+  
+  .column-type-#{$column-type} .column-title .attribution {
+    color: #{$color};
+    font-weight: normal;
+    font-size: 13px;
+  }
+  
+  .column-type-#{$column-type} .column-header-link:hover {
+    color: lighten(#{$color}, #{$lighten});
+  }
+}
+  
+  
