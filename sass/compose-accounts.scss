@@ -1,0 +1,42 @@
+// compose-accounts.scss
+// fixes and changes for the compose accounts area in cashmere
+
+.compose-accounts {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.compose-account {
+  margin-right: 0px;
+  border-radius: 0px;
+}
+
+.compose-account-img {
+  opacity: 0.3;
+}
+
+.compose-account-img .is-selected {
+  opacity: 0.999;
+}
+
+.compose-account-selected {
+  border-radius: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.95;
+}
+
+.compose-account-selected:hover {
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+} 
