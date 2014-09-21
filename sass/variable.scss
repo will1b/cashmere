@@ -5,14 +5,14 @@
 $retweet-color:   #71b332;
 $favorite-color:  #ff9b00;
 $favrt-color:   #48b4e6;
-$update-color:    @favrt-color;
+$update-color:    $favrt-color;
 
 $column-home:       #BB295D;
 $column-interaction:    #F47454;
 $column-message:      #733EE8;
 $column-activity:     #C127CA;
 $column-tweets:       #651A64;
-$column-favorite:     @favorite-color;
+$column-favorite:     $favorite-color;
 $column-search:       #FB7967;
 $column-list:       #599DC1;
 $column-customtimeline:   #A2C52D;
@@ -26,9 +26,9 @@ $font-family:   'Open Sans', sans-serif;
 
 // Tweet (hover) colours
 $tweet:       #ffffff;
-$tweet-hover:   darken(@tweet, 5%);
+$tweet-hover:   darken($tweet, 5%);
 $tweet-dark:    #111111;
-$tweet-dark-hover:  lighten(@tweet-dark, 5%);
+$tweet-dark-hover:  lighten($tweet-dark, 5%);
 
 // Column headers
 $header-height: 40px; //Any heights above 50px may make the column drag handle look strange. Any such changes are at your own risk.
