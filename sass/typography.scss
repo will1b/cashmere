@@ -23,7 +23,7 @@ body, .is-inverted-dark {
   }
   
   .is-#{$status} .tweet-text a:hover {
-  color: #{$color};    
+  color: darken($color, 10%);    
   }
 }
 

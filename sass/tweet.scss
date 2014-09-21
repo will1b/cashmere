@@ -15,10 +15,10 @@
   }
 
   .stream-item:hover {
-    background-color: @tweet-hover;
+    background-color: $tweet-hover;
   } 
 
-  @each $column-type, $color, $lighten in (home, $column-home, 50%%),
+  @each $column-type, $color, $lighten in (home, $column-home, 50%),
                                           (mention, $column-interaction, 30%),
                                           (interactions, $column-interaction, 30%),
                                           (message, $column-message, 35%),
@@ -31,7 +31,7 @@
                                           (scheduled, $column-scheduled, 50%)
   {
     .column-type-#{$column-type} .stream-item:hover {
-    background-color: lighten(#{$color}, #{$lighten});
+    background-color: lighten($color, $lighten);
     }
   }
 } @else if $theme == dark {

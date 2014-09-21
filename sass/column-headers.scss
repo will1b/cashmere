@@ -19,18 +19,18 @@
                                           (scheduled, $column-scheduled, 10%)
   {
     .column-type-#{$column-type} .column-header {
-      color: darken(#{$color}, #{$darken});
-      border-bottom: 1px solid darken(#{$color}, #{$darken});
+      color: darken($color, $darken);
+      border-bottom: 1px solid darken($color, $darken);
     }
     
     .column-type-#{$column-type} .column-title .attribution {
-      color: #{$color};
+      color: $color;
       font-weight: normal;
       font-size: 13px;
     }
     
     .column-type-#{$column-type} .column-header-link:hover {
-      color: darken(#{$color}, #{$darken});
+      color: darken($color, $darken);
     }
   }
 } @else if $theme == dark {
@@ -51,18 +51,18 @@
                                           (scheduled, $column-scheduled, 10%)
   {
     .column-type-#{$column-type} .column-header {
-      color: lighten(#{$color}, #{$lighten});
-      border-bottom: 1px solid lighten(#{$color}, #{$lighten});
+      color: lighten($color, $lighten);
+      border-bottom: 1px solid lighten($color, $lighten);
     }
     
     .column-type-#{$column-type} .column-title .attribution {
-      color: #{$color};
+      color: $color;
       font-weight: normal;
       font-size: 13px;
     }
     
     .column-type-#{$column-type} .column-header-link:hover {
-      color: lighten(#{$color}, #{$lighten});
+      color: lighten($color, $lighten);
     }
   }
 }
