@@ -1,10 +1,6 @@
 // radius.scss
 // radius-changes for cashmere
 
-// Variables
-$image-radius: 100px;
-$btn-radius: 0px;
-
 .tweet-avatar, .prf-img, .size72, .size24 {
   border-radius: $image-radius;
 }

@@ -1,11 +1,6 @@
 // compose.scss
 // fixes and workarounds for the compose-column in cashmere
 
-// Variables
-$compose-fix:   10px;
-$compose-remove:  0px;
-$compose-header:  #339dc3;
-
 .antiscroll-inner, .js-media-added {
   padding-left: $compose-remove !important;
   padding-right: $compose-remove !important;
