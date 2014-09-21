@@ -16,14 +16,14 @@ body, .is-inverted-dark {
 
 @each $status, $color in (favorite, $favorite-color),
                          (retweet,  $retweet-color),
-                         (retweet.is-favorite, $favrt-color)
+                         ("retweet.is-favorite", $favrt-color)
 {
   .is-#{$status} .tweet-text a {
   color: #{$color};    
   }
   
   .is-#{$status} .tweet-text a:hover {
-  color: darken(#{$color}, 10%);    
+  color: #{$color};    
   }
 }
 

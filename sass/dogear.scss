@@ -10,7 +10,7 @@
 
 @each $status, $color in (favorite, $favorite-color),
                          (retweet,  $retweet-color),
-                         (retweet.is-favorite, $favrt-color)
+                         ("retweet.is-favorite", $favrt-color)
 {
   .is-#{$status} .tweet-dogear {
   border-right: 3px solid #{$color};

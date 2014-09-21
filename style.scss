@@ -12,8 +12,16 @@ $theme: light;
 @import "sass/typography";
 @import "sass/radius";
 @import "sass/columns";
-@import "sass/column-headers-@{theme}";
+@if $theme == "light" {
+@import "sass/column-headers-light";
+} @else if $theme == "dark" {
+@import "sass/column-headers-dark";  
+}
 @import "sass/compose";
 @import "sass/compose-accounts";
-@import "sass/tweet-@{theme}";
+@if $theme == "light" {
+@import "sass/tweet-light";
+} @else if $theme == "dark" {
+@import "sass/tweet-dark";
+}
 @import "sass/dogear"; 
