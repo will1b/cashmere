@@ -1,0 +1,32 @@
+// typography.scss
+// changes for text behaviour/body stuff in cashmere
+
+body {
+  background-image: $loading;
+    background-size: cover;
+}
+
+body, .is-inverted-dark {
+  font-family: $font-family;
+}
+
+.needs-scroll-bottom-offset.scroll-styled-h {
+  bottom: 0px;
+}
+
+@each $status, $color in (favorite, $favorite-color),
+                         (retweet,  $retweet-color),
+                         (retweet.is-favorite, $favrt-color)
+{
+  .is-#{$status} .tweet-text a {
+  color: #{$color};    
+  }
+  
+  .is-#{$status} .tweet-text a:hover {
+  color: darken(#{$color}, 10%);    
+  }
+}
+
+.js-compose-message-recipient {
+  padding-top: 10px;
+}
