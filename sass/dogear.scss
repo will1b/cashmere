@@ -1,0 +1,18 @@
+// dogear.less
+// fixes and changes for the dogears/status indicators in cashmere
+
+.tweet-dogear {
+  display: block;
+  width: 0.1px;
+  height: 100%;
+  background-image: none;
+}
+
+@each $status, $color in (favorite, $favorite-color),
+                         (retweet,  $retweet-color),
+                         (retweet.is-favorite, $favrt-color)
+{
+  .is-#{$status} .tweet-dogear {
+  border-right: 3px solid #{$color};
+  }
+}
