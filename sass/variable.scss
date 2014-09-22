@@ -2,21 +2,21 @@
 // Including variables to be used in cashmere
 
 // Colours
-$retweet-color:   #71b332;
-$favorite-color:  #ff9b00;
-$favrt-color:   #48b4e6;
-$update-color:    $favrt-color;
+$retweet-color:         #71b332;
+$favorite-color:        #ff9b00;
+$favrt-color:           #48b4e6;
+$update-color:          $favrt-color;
 
-$column-home:       #BB295D;
-$column-interaction:    #F47454;
-$column-message:      #733EE8;
-$column-activity:     #C127CA;
-$column-tweets:       #651A64;
-$column-favorite:     $favorite-color;
-$column-search:       #FB7967;
-$column-list:       #599DC1;
-$column-customtimeline:   #A2C52D;
-$column-scheduled:      #01AEF2;
+$column-home:           #3498DB;
+$column-interaction:    #E67E22;
+$column-message:        #9B59B6;
+$column-activity:       #8E44AD;
+$column-tweets:         #C0392B;
+$column-favorite:       $favorite-color;
+$column-search:         #E74C3C;
+$column-list:           #16A085;
+$column-customtimeline: #2ECC71;
+$column-scheduled:      #2980B9;
 
 // Images
 $loading:     url(http://puu.sh/94OvX.png);
