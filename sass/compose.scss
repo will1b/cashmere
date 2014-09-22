@@ -20,13 +20,22 @@
 }
         
 .js-add-image-button, .js-schedule-button, .js-dm-button, .js-tweet-button, .js-compose-message-recipient > p {
-    width: 92% !important;
+  width: 92% !important;
   margin-left: $compose-fix;
   margin-right: $compose-fix;    
 }
 
 .compose-header, .attach-compose-buttons .tweet-button {
     background-color: $compose-header;
+}
+
+.compose-header {
+  height: $header-height;
+  line-height: 1.45;
+}
+
+.attach-compose-buttons {
+  margin-top: -3px;
 }
       
 .compose-title {
