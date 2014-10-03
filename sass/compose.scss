@@ -29,20 +29,26 @@
     background-color: $compose-header;
 }
 
-.compose-header {
-  height: $header-height;
-  line-height: 1.45;
+.compose-header, .compose-title, .js-compose-title {
+  margin-top: 0px;
+  @if $header-height < 40px {
+    height: 40px;
+	line-height: 40px;
+  }
+  @else {
+    height: $header-height;
+	line-height: $header-height;
+  }
 }
-
 .attach-compose-buttons {
   margin-top: -3px;
-}
-      
-.compose-title {
-    padding-top: 6px;
 }
 
 .inline-reply .compose-text-container {
   display: inline-block;
   width: 94%;
-} 
+}
+
+.js-compose-header-close {
+  margin: 0px !important;
+}
