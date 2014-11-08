@@ -45,3 +45,5 @@ Follow the above steps, but open the theme in Stylish afterwards and do the foll
 * Copy the URL and paste it into the line starting `background-image: url(` where the default URL is.
 * Click on save.
 * Notice the changes on refresh!
+
+**Notice:** The new loading image needs to be smaller, so use a 150x150px sized image and it just works fine!
