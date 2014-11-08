@@ -18,6 +18,16 @@
 .js-send-tweet-button {
   margin-right: $compose-fix;    
 }
+
+.js-compose-message-header {
+  margin-right: $compose-fix;
+  margin-left: $compose-fix;
+}
+
+.compose .margin-v--14 {
+  margin-right: $compose-fix;
+  margin-left: $compose-fix;
+}
         
 .js-add-image-button, .js-schedule-button, .js-dm-button, .js-tweet-button, .js-compose-message-recipient > p {
   width: 92% !important;
@@ -40,6 +50,15 @@
 	line-height: $header-height;
   }
 }
+
+.compose-header .margin-vm {
+  margin-top: 0px !important;
+}
+
+.compose-header .icon-close {
+  padding-right: 4px;
+}
+
 .attach-compose-buttons {
   margin-top: -3px;
 }

@@ -1,0 +1,17 @@
+.tweet-message .l-table {
+  display: none !important;
+}
+
+.tweet-message .tweet-avatar {
+  width: 24px;
+  height: 24px;
+}
+  
+.is-unread .tweet-message .l-table {
+  display: table !important;
+  vertical-align: middle;
+}
+  
+.tweet-message .conversation-indicator {
+  display: none;
+} 

@@ -5,7 +5,7 @@
  */
  
 // Theme
-$theme: dark;
+$theme: light;
 // $theme: dark;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic');
@@ -17,4 +17,5 @@ $theme: dark;
 @import "sass/compose";
 @import "sass/compose-accounts";
 @import "sass/tweet";
+@import "sass/direct-message";
 @import "sass/dogear"; 
