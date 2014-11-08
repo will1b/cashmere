@@ -2,8 +2,26 @@
 // changes for text behaviour/body stuff in cashmere
 
 body {
+  background: #677075; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #677075 0%, #0e1d21 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#677075), color-stop(100%,#0e1d21)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #677075 0%,#0e1d21 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #677075 0%,#0e1d21 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #677075 0%,#0e1d21 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center, #677075 0%,#0e1d21 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#677075', endColorstr='#0e1d21',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.spinner-centered {
+  height: 0;
+  width: 0;
+  /* image dimension */
+  padding: 75px;
   background-image: $loading;
-    background-size: cover;
+  border-radius: 100px;
+  margin-left: -75px;
+  margin-right: -75px;
+  box-shadow: 5px 3px 7px rgba(0,0,0,0.3);
 }
 
 body, .is-inverted-dark {

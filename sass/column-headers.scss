@@ -29,6 +29,12 @@
       font-size: 13px;
     }
     
+    .column-type-#{$column-type} .column-title-back .attribution {
+      color: $color;
+      font-weight: normal;
+      font-size: 13px;
+    }
+    
     .column-type-#{$column-type} .column-header-link:hover {
       color: darken($color, $darken);
     }
@@ -56,6 +62,12 @@
     }
     
     .column-type-#{$column-type} .column-title .attribution {
+      color: $color;
+      font-weight: normal;
+      font-size: 13px;
+    }
+    
+    .column-type-#{$column-type} .column-title-back .attribution {
       color: $color;
       font-weight: normal;
       font-size: 13px;
