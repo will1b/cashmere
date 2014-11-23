@@ -30,6 +30,17 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 * Create a rule pointing to `URLs starting with` `https://tweetdeck.twitter.com`.
 * Click on **Save** and look at TweetDeck!
 
+#### Chrome Web App (Extension)
+
+This is a bit more work and does **NOT** require Stylish
+
+* Download both styles from the [releases page](https://github.com/pixeldesu/cashmere/releases)
+* Open your file manager/explorer and navigate to `%UserProfile%\AppData\Local\Google\Chrome\User Data\Default\Extensions\hbdpomandigafcibbmofojjchbcdagbl\`
+* Next, click on the folder resembling a version number, and afterwards navigate to `web` and `css`
+* Now, open `app-light.css` and `app-dark.css`
+* **IMPORTANT STEP:** Don't replace the styles with the one from cashmere, go down 1-2 lines and paste the cashmere-style after the original one.
+* Refresh the tab/standalone window with the Chrome Extension, and you now have both styles installed (you can switch them in the settings!)
+
 #### Firefox
 
 * Add the following into the textbox on a single line, before the contents of cashmere.css: 
