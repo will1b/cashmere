@@ -22,6 +22,9 @@ body {
   margin-left: -75px;
   margin-top: -75px;
   box-shadow: 5px 3px 7px rgba(0,0,0,0.3);
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 body, .is-inverted-dark {
