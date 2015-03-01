@@ -1,7 +1,7 @@
-cashmere
-========
+# technicolour
+(_previously known as cashmere_)
 
-Successor for ['Modern TweetDeck'](https://github.com/pixeldesu/modern-tweetdeck) built with SASS
+A user experience and content-focused userstyle for TweetDeck
 
 **WARNING:** This modification cannot be applied directly *without* a plugin for your browser that allows userstyles on certain webpages. I would recommend [Stylish/userstyles.org](http://userstyles.org/).
 
@@ -22,8 +22,8 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 
 ### How to install this style
 
-* Name the Style anything you want, but something easy to recognise like *Cashmere* would be good.
-* Paste the text from `cashmere.css` for the theme you use on the [releases page](https://github.com/pixeldesu/cashmere/releases) into the textbox.
+* Name the Style anything you want, but something easy to recognise like *Technicolour* would be good.
+* Paste the text from `cashmere.css` for the theme you use on the [releases page](https://github.com/pixeldesu/technicolour/releases) into the textbox.
 
 #### Chrome
 
@@ -34,12 +34,14 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 
 This is a bit more work and does **NOT** require Stylish
 
-* Download both styles from the [releases page](https://github.com/pixeldesu/cashmere/releases)
+* Download both styles from the [releases page](https://github.com/pixeldesu/technicolour/releases)
 * Open your file manager/explorer and navigate to `%UserProfile%\AppData\Local\Google\Chrome\User Data\Default\Extensions\hbdpomandigafcibbmofojjchbcdagbl\`
 * Next, click on the folder resembling a version number, and afterwards navigate to `web` and `css`
 * Now, open `app-light.css` and `app-dark.css`
 * **IMPORTANT STEP:** Don't replace the styles with the one from cashmere, go down 1-2 lines and paste the cashmere-style after the original one.
 * Refresh the tab/standalone window with the Chrome Extension, and you now have both styles installed (you can switch them in the settings!)
+
+**NOTE:** You have to do this every time after TweetDeck reloads CSS files after an update!
 
 #### Firefox
 
