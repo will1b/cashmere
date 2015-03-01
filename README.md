@@ -23,7 +23,7 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 ### How to install this style
 
 * Name the Style anything you want, but something easy to recognise like *Technicolour* would be good.
-* Paste the text from `cashmere.css` for the theme you use on the [releases page](https://github.com/pixeldesu/technicolour/releases) into the textbox.
+* Paste the text from `technicolour.css` for the theme you use on the [releases page](https://github.com/pixeldesu/technicolour/releases) into the textbox.
 
 #### Chrome
 
@@ -38,14 +38,14 @@ This is a bit more work and does **NOT** require Stylish
 * Open your file manager/explorer and navigate to `%UserProfile%\AppData\Local\Google\Chrome\User Data\Default\Extensions\hbdpomandigafcibbmofojjchbcdagbl\`
 * Next, click on the folder resembling a version number, and afterwards navigate to `web` and `css`
 * Now, open `app-light.css` and `app-dark.css`
-* **IMPORTANT STEP:** Don't replace the styles with the one from cashmere, go down 1-2 lines and paste the cashmere-style after the original one.
+* **IMPORTANT STEP:** Don't replace the styles with the one from technicolour, go down 1-2 lines and paste the technicolour-style after the original one.
 * Refresh the tab/standalone window with the Chrome Extension, and you now have both styles installed (you can switch them in the settings!)
 
 **NOTE:** You have to do this every time after TweetDeck reloads CSS files after an update!
 
 #### Firefox
 
-* Add the following into the textbox on a single line, before the contents of cashmere.css: 
+* Add the following into the textbox on a single line, before the contents of technicolour.css: 
 * `@-moz-document url-prefix("https://tweetdeck.twitter.com") {`
 * Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
 * Click on **Save** and look at TweetDeck!
