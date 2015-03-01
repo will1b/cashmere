@@ -56,3 +56,7 @@
     background-color: $tweet-hover;
   } 
 }
+
+.stream-item:not(.conversation-event) {
+  border-bottom: 0px;
+}
