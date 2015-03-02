@@ -22,13 +22,6 @@
     border-bottom: 1px;
 }
 
-.sprite-column-update {
-    width: 100%;
-    height: 1px;
-    border-bottom: 3px solid $update-color;
-    margin-top: -1px;
-}
-
 .column-updates {
     margin-left: 0px;
     left: 0%;
@@ -45,6 +38,22 @@
   line-height: 50px;
 }
 
+.column-title {
+  padding-top: 5px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.column-title .column-head-title {
+  font-weight: bold;
+}
+
+.column-title .attribution {
+  display: block;
+  line-height: 1em;
+  margin-top: -3px;
+}
+
 .column-drag-handle {
   height: ($header-height - 15px);
 }
@@ -54,7 +63,7 @@
 }
 
 .column-type-icon {
-  display: none;
+  display: block;
 }
 
 .lst-launcher .column-type-icon {
