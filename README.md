@@ -9,6 +9,9 @@ A user experience and content-focused userstyle for TweetDeck
 
 * Any browser that is not Internet Explorer, *I highly doubt it will work there.*
 * A plugin that provides support for userstyles
+* The font [Open Sans](http://www.google.com/fonts/specimen/Open+Sans) preinstalled on your computer.
+
+**Why do we need to preinstall the font?:** Because it won't load. @imports don't work with TweetDeck, since they have a security policy to only access specific websites and block most of those to get the content from. And since I don't want to create a userscript in companion to this userstyle, to keep it lightweight, the only way (for now) is to install the font.
 
 ## Installation
 
