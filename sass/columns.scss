@@ -38,20 +38,21 @@
   line-height: 50px;
 }
 
-.column-title {
-  padding-top: 5px;
-  line-height: 1.4em;
-  text-align: center;
-}
 
-.column-title .column-head-title {
-  font-weight: bold;
-}
-
-.column-title .attribution {
-  display: block;
-  line-height: 1em;
-  margin-top: -3px;
+@if $header-height > 43px {
+	.column-title {
+	  padding-top: 5px;
+	  line-height: 1.4em;
+	  text-align: center;
+	}
+	.column-title .column-head-title {
+	  font-weight: bold;
+	}
+	.column-title .attribution {
+	  display: block;
+	  line-height: 1em;
+	  margin-top: -3px;
+	}
 }
 
 .column-drag-handle {
