@@ -71,3 +71,7 @@
 .js-compose-header-close {
   margin: 0px !important;
 }
+
+.js-character-count {
+  width: 30px !important; // Stops the close and popout buttons moving down with narrow columns
+}
