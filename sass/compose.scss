@@ -40,15 +40,31 @@
 }
 
 .compose-header, .compose-title, .js-compose-title {
-  margin-top: 0px;
-  @if $header-height < 40px {
-    height: 40px;
-	line-height: 40px;
+  @if $header-height < 46px {
+    height: 46px;
+	line-height: 46px;
   }
   @else {
     height: $header-height;
 	line-height: $header-height;
   }
+}
+
+@if $header-height < 40px {
+.is-condensed .compose-header, .is-condensed .compose-title, .is-condensed .js-compose-title {
+  height: 40px;
+  line-height: 40px;
+}
+}
+
+.compose-title {
+  margin-top: 0px !important;
+}
+
+@if $theme == dark { //alignment with button on dark theme. A bit hacky, but also solves 1px off alignment on light theme.
+.compose-header {
+  margin-top: 1px;
+}
 }
 
 .compose-header .margin-vm {
