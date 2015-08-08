@@ -8,6 +8,8 @@
 $theme: light;
 // $theme: dark;
 
+// Firefox code - just uncomment the next line and the } at the end to make it auto-include
+// @-moz-document url-prefix("https://tweetdeck.twitter.com") {
 @import "sass/variable";
 @import "sass/typography";
 @import "sass/radius";
@@ -18,3 +20,4 @@ $theme: light;
 @import "sass/tweet";
 @import "sass/direct-message";
 @import "sass/dogear"; 
+// }
