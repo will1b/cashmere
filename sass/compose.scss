@@ -75,3 +75,8 @@
 .js-character-count {
   width: 30px !important; // Stops the close and popout buttons moving down with narrow columns
 }
+
+.js-quote-tweet-holder {
+  margin-left: 10px;
+  margin-right: 10px; //Stops it from appearing as a line, makes it in line with the rest of the textbox
+}
