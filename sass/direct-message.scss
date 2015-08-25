@@ -24,3 +24,19 @@
 .tweet-message .tweet-text {
   margin-left: -24px;	
 }
+
+@if $header-height < 40px { //stops overflow with small headers and long names on DMs
+  .column-type-message .title-content{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .is-narrow-columns .column-type-message .title-content{
+    max-width: ($column-narrow-width - 90px)
+  }
+  .is-medium-columns .column-type-message .title-content{
+    max-width: ($column-medium-width - 90px)
+  }
+  .is-wide-columns .column-type-message .title-content{
+    max-width: ($column-wide-width - 90px)
+  }
+}

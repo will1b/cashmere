@@ -46,6 +46,11 @@ $column-margin:   1px;
 $image-radius: 100px;
 $btn-radius: 0px;
 
+// Column widths (can be used to specify custom column widths based on setting, defaults by default)
+$column-narrow-width: 270px;
+$column-medium-width: 310px;
+$column-wide-width: 350px;
+
 // Animation stuff
 
 @keyframes fadeInDown {
