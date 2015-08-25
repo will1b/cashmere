@@ -1,6 +1,14 @@
 // columns.scss
 // fixes column margins and more for technicolour
 
+@each $column-type, $current-size, $default-size in $default-column-widths {
+  @if $current-size != $default-size {
+    .is-#{$column-type}-columns .column {
+	  width: $current-size;
+	}
+  }
+}
+
 .is-wide-columns .column, .is-narrow-columns .column {
     margin-right: $column-margin;
 }

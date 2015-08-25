@@ -51,6 +51,8 @@ $column-narrow-width: 270px;
 $column-medium-width: 310px;
 $column-wide-width: 350px;
 
+$default-column-widths: ((narrow, $column-narrow-width, 270px), (medium, $column-medium-width, 310px), (wide, $column-wide-width, 350px));
+
 // Animation stuff
 
 @keyframes fadeInDown {
