@@ -11,7 +11,6 @@ $theme: dark;
 // Firefox code - just uncomment the next line and the } at the end to make it auto-include
 // @-moz-document url-prefix("https://tweetdeck.twitter.com") {
 @import "sass/variable";
-// @import "sass/vintage"; //uncomment this to return the "like" button to being a star, and yellow colours
 @import "sass/typography";
 @import "sass/radius";
 @import "sass/columns";
@@ -20,5 +19,6 @@ $theme: dark;
 @import "sass/compose-accounts";
 @import "sass/tweet";
 @import "sass/direct-message";
-@import "sass/dogear"; 
+@import "sass/dogear";
+@import "sass/likes";
 // }
