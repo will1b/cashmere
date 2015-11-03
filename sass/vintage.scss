@@ -11,34 +11,6 @@ $favorite-color: $vintage-favorite-color;
   color: #fab41e;
 }
 
-.hearty .sprite {
-  display: inline-block;
-  vertical-align: text-top;
-  background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@1x.e0708304e2.png");
-  background-repeat: no-repeat;
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .hearty .sprite {
-    background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@2x.cca0541f2d.png");
-    /* Translate @2x dimensions back to @1x */
-    background-size: 240px 160px;
-    background-repeat: no-repeat;
-  }
-}
-
-.hearty .fullname-badged:before {
-  background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@1x.e0708304e2.png");
-  background-repeat: no-repeat; }
-  
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .hearty .fullname-badged:before {
-    background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@2x.cca0541f2d.png");
-    /* Translate @2x dimensions back to @1x */
-    background-size: 240px 160px;
-  } 
-}
-
 .hearty .is-favorite .icon-favorite-toggle {
   color: #fab41e;
 }
