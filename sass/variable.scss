@@ -1,4 +1,4 @@
-// variable.scss
+﻿// variable.scss
 // Including variables to be used in technicolour
 
 // Colours
@@ -52,6 +52,10 @@ $column-medium-width: 310px;
 $column-wide-width: 350px;
 
 $default-column-widths: ((narrow, $column-narrow-width, 270px), (medium, $column-medium-width, 310px), (wide, $column-wide-width, 350px));
+
+// Vintage variables (only come into effect if vintage.scss is enabled)
+$vintage-favorite-color: #ff9b00;
+$vintage-favorite-character: "\f007"; //It's a star by default. Change to an eggplant at your own risk.
 
 // Animation stuff
 

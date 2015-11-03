@@ -1,10 +1,10 @@
 ﻿// vintage.scss
 // Changes the hearts back to stars. Literally just copy-pasted from the newly documented CSS, neatened up a bit. I can't believe the TweetDeck team were that lazy/didn't bother implementing the decider.
 
-$favorite-color:        #ff9b00;
+$favorite-color: $vintage-favorite-color;
 
 .hearty .icon-favorite:before {
-  content: "\f007";
+  content: $vintage-favorite-character;
 }
 
 .hearty .icon-favorite-color {
