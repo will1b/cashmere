@@ -8,9 +8,9 @@ $favorite-color: $vintage-favorite-color;
 }
 
 .hearty .icon-favorite-color {
-  color: #fab41e;
+  color: $vintage-favorite-button-color;
 }
 
 .hearty .is-favorite .icon-favorite-toggle {
-  color: #fab41e;
+  color: $vintage-favorite-button-color;
 }
