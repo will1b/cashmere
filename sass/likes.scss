@@ -1,0 +1,18 @@
+﻿// likes.scss
+// Originally just copy-pasted from the newly documented CSS, neatened up a bit. I can't believe the TweetDeck team were that lazy/didn't bother implementing the decider. But that's fine. It's been improved. Brought to its logical conclusion. You can change it to anything, although it defaults to not changing anything.
+
+@if $favorite-character != "\f055" {
+  .hearty .icon-favorite:before {
+    content: $favorite-character;
+  }
+}
+
+@if $favorite-button-color != #be1931 {
+  .hearty .icon-favorite-color {
+    color: $favorite-button-color;
+  }
+
+  .hearty .is-favorite .icon-favorite-toggle {
+    color: $favorite-button-color;
+  }
+}

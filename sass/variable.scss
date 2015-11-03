@@ -3,7 +3,7 @@
 
 // Colours
 $retweet-color:         #71b332;
-$favorite-color:        #be1931;
+$favorite-color:        #be1931; //Used to be #ff9b00, change it yourself if you want
 $favrt-color:           #48b4e6;
 $update-color:          $favrt-color;
 
@@ -53,10 +53,9 @@ $column-wide-width: 350px;
 
 $default-column-widths: ((narrow, $column-narrow-width, 270px), (medium, $column-medium-width, 310px), (wide, $column-wide-width, 350px));
 
-// Vintage variables (only come into effect if vintage.scss is enabled)
-$vintage-favorite-color: #ff9b00;
-$vintage-favorite-button-color: #fab41e;
-$vintage-favorite-character: "\f007"; //It's a star by default. Change to an eggplant at your own risk.
+// Likes variables (only come into effect if likes.scss is enabled)
+$favorite-button-color: #be1931; //#fab41e for the old star aesthetic
+$favorite-character: "\f055"; //It's a heart by default. For the vintage touch, use "\f007" for a star. Change to an eggplant at your own risk.
 
 // Animation stuff
 
