@@ -24,6 +24,11 @@
   margin-left: $compose-fix;
 }
 
+.js-quote-tweet-holder {
+  margin-left: $compose-fix;
+  margin-right: $compose-fix; //Stops it from appearing as a line, makes it in line with the rest of the textbox
+}
+
 .compose .margin-v--14 {
   margin-right: $compose-fix;
   margin-left: $compose-fix;
@@ -90,9 +95,4 @@
 
 .js-character-count {
   width: 30px !important; // Stops the close and popout buttons moving down with narrow columns
-}
-
-.js-quote-tweet-holder {
-  margin-left: 10px;
-  margin-right: 10px; //Stops it from appearing as a line, makes it in line with the rest of the textbox
 }
