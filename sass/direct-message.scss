@@ -22,7 +22,11 @@
 }
 
 .tweet-message .tweet-text {
-  margin-left: -24px;	
+  margin-left: -24px;
+}
+
+.message-stream-item .tweet-text {
+  width: 100% //because for some reason it doesn't fill the space
 }
 
 @if $header-height < 40px { //stops overflow with small headers and long names on DMs
