@@ -60,3 +60,7 @@
 .stream-item:not(.conversation-event) {
   border-bottom: 0px;
 }
+
+.tweet-body a[rel="viewDetails"] { //hides that godawful view conversation button
+  display: none;
+}
