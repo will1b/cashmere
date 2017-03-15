@@ -8,6 +8,16 @@
   z-index: 100;
 }
 
+//Sort out those dodgy edit boxes.
+.column-title-edit-box,
+.js-column-title-edit-box {
+	padding: 1px;
+	@if $header-height < 38px { //ie. when the default implementation just looks weird (it's fine with 35px+)
+		height: min($header-height - 2, 30px); //Make 'em scale with header size
+		bottom: 2px; //and sort out the offset
+	}
+}
+
 @if $theme == light {
   .column-header {
     background-color: #fff;
