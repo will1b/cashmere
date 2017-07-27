@@ -93,6 +93,10 @@
   margin: 0px !important;
 }
 
+.btn .icon {
+	vertical-align: top; //Not sure what sorcery they're at, but "middle" is actually slightly below centre and "top" is centred
+}
+
 .js-character-count {
   width: 30px !important; // Stops the close and popout buttons moving down with narrow columns
 }

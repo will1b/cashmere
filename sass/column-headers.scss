@@ -8,6 +8,20 @@
   z-index: 100;
 }
 
+//Those new changes have made the icon way too high. We're sorting that.
+.column-header .column-type-icon,
+.js-column-header .column-type-icon {
+	bottom: auto;
+}
+.column-header .column-drag-handle {
+	top: 13px;
+}
+
+//And the settings icon is far too low.
+.column-header .js-action-header-button {
+	top: 0px;
+}
+
 //Sort out those dodgy edit boxes.
 .column-title-edit-box,
 .js-column-title-edit-box {
