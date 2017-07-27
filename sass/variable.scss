@@ -31,6 +31,7 @@ $tweet-dark:    #111111;
 $tweet-dark-hover:  lighten($tweet-dark, 5%);
 
 // Column headers
+$header-height: 54px;
 // Warning: This variable is _very_ powerful. Any heights below 30px may be too cramped, and any heights above 50px may cause the drag handle to go weird. These changes are at your own risk.
 
 // Compose fixes
